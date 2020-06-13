@@ -13,5 +13,8 @@ public class Dog extends Animal {
     public void eat(){
         System.out.println("年龄：" + age + "狗是可以吃东西的");
     }
+    public Dog(){
+        System.out.println("Dog类执行了");
+    }
 }
 
